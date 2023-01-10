@@ -22,7 +22,7 @@ function createUrl() {
                 "realm": "",
                 "realmId": "m:jH8SCQjtW9uGEQCrNS99qCJ8cHN:5zKtXEAq"
             },
-            "id": "m:tqWiaxqSxkx73Wxo8qJRjavT5gp:5zKtXEAq"
+            "id": "ID"
         },
         "transferBody": {
             "currency": "GBP",
