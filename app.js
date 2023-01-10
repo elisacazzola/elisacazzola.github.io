@@ -1,4 +1,8 @@
 $( document ).ready(function() {
+  $('#enter-btn').on('click', function() {
+    $('#form-start').hide();
+     return false;
+   });
   $('#submit-btn').on('click', function() {
     $('#loading').show();
     createUrl();
@@ -12,6 +16,9 @@ $( document ).ready(function() {
 function createUrl() {
   let customRefId = "Test" + new Date().getTime(),
       amount = $('#amount').val(),
+      // realmId = $('#realmId').val(),
+      // customerId = $('#customerId').val(),
+      apiToken = "Basic " + $('#key').val(),
       json = {
     "requestPayload": {
         "refId": customRefId,
@@ -20,9 +27,9 @@ function createUrl() {
                 "type": "DOMAIN",
                 "value": "hsbcshadow.com",
                 "realm": "",
-                "realmId": "m:jH8SCQjtW9uGEQCrNS99qCJ8cHN:5zKtXEAq"
+                "realmId": "m:jH8SCQjtW9uGEQCrNS99qCJ8cHN:5zKtXEAq",
             },
-            "id": "ID"
+            "id": "m:tqWiaxqSxkx73Wxo8qJRjavT5gp:5zKtXEAq",
         },
         "transferBody": {
             "currency": "GBP",
@@ -48,11 +55,13 @@ function createUrl() {
     }
   }
 
+
+
   fetch("https://api.token.io/token-requests", {
       method: "POST",
       mode: 'cors',
       headers: {
-        "Authorization" : "Basic API_TOKEN",
+        "Authorization" : apiToken,
         "Content-Type": "application/json"
       },
       body: JSON.stringify(json),
