@@ -9,9 +9,6 @@ $( document ).ready(function() {
   $('.disabled-popover').popover();
 })
 
-
-
-
 function createUrl() {
   let customRefId = "Test" + new Date().getTime(),
       amount = $('#amount').val(),
@@ -55,7 +52,7 @@ function createUrl() {
       method: "POST",
       mode: 'cors',
       headers: {
-        "Authorization" : "Basic bS10cVdpYXhxU3hreDczV3hvOHFKUmphdlQ1Z3AtNXpLdFhFQXE6MzBiYjg2MzUtM2Q3ZC00YzNmLWIwMDktY2UxOGYyMzljZjhm",
+        "Authorization" : "Basic API_TOKEN",
         "Content-Type": "application/json"
       },
       body: JSON.stringify(json),
