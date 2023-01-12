@@ -41,11 +41,10 @@ function createUrl() {
         "to": {
             "alias": {
                 "type": "DOMAIN",
-                "value": "hsbcshadow.com",
+                "value": "demo.hsbc.com",
                 "realm": "",
-                "realmId": "m:jH8SCQjtW9uGEQCrNS99qCJ8cHN:5zKtXEAq",
             },
-            "id": "m:tqWiaxqSxkx73Wxo8qJRjavT5gp:5zKtXEAq",
+            "id": "m:2GKYMZ1C1SXuCkpmxcfMiHx4qn79:5zKtXEAq",
         },
         "transferBody": {
             "currency": "GBP",
