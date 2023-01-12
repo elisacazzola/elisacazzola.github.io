@@ -32,18 +32,11 @@ $( document ).ready(function() {
 function createUrl() {
   let customRefId = "Test" + new Date().getTime(),
       amount = $('#amount').val(),
-      // realmId = $('#realmId').val(),
-      // customerId = $('#customerId').val(),
       apiToken = "Basic " + $('#key').val(),
       json = {
     "requestPayload": {
         "refId": customRefId,
         "to": {
-            "alias": {
-                "type": "DOMAIN",
-                "value": "demo.hsbc.com",
-                "realm": "",
-            },
             "id": "m:2GKYMZ1C1SXuCkpmxcfMiHx4qn79:5zKtXEAq",
         },
         "transferBody": {
