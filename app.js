@@ -11,7 +11,23 @@ $( document ).ready(function() {
   });
 
   $('.disabled-popover').popover();
+  $('.datepicker').datepicker({
+    format: 'dd/mm/yy'
+  });
+
+  $('#paybyvrp').on('change', function() {
+    if($('#paybyvrp').is(':checked')) {
+      $('#vrpFields').show();
+    }
+  });
+
+  $('#paybybank').on('change', function() {
+    if($('#paybybank').is(':checked')) {
+      $('#vrpFields').hide();
+    }
+  });
 })
+
 
 function createUrl() {
   let customRefId = "Test" + new Date().getTime(),
@@ -43,9 +59,10 @@ function createUrl() {
                         },
                         "customerData": {
                             "legalNames": [
-                                "Capital One Demo App"
+                                "Capital One Demo App"  
                             ]
-                        }
+
+                        } 
                     }
                 ]
             }
@@ -54,7 +71,6 @@ function createUrl() {
         "redirectUrl": "https://capitalone.co.uk/"
     }
   }
-
 
 
   fetch("https://api.token.io/token-requests", {
@@ -81,4 +97,3 @@ function createUrl() {
     $('#error').show();
   });
 }
-
