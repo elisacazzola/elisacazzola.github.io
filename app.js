@@ -131,7 +131,7 @@ function submitVrp() {
       method: "POST",
       mode: 'cors',
       headers: {
-        "Authorization" : "Basic bS0yR0tZTVoxQzFTWHVDa3BteGNmTWlIeDRxbjc5LTV6S3RYRUFxOjY2MDJhOGM2LWNmNTctNDk0Yi05YTZiLWY5ODg0MjQ1ZDFkMQ==",
+        "Authorization" : apiToken,
         "Content-Type": "application/json"
       },
       body: JSON.stringify(json),
