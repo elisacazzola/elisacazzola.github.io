@@ -65,7 +65,7 @@ function submitSinglePayment() {
             }
         },
         "description": "CapitalOneDemoPayment",
-        "redirectUrl": "https://capitalone.co.uk/"
+        "redirectUrl": "https://elisacazzola.github.io/thanks"
     }
   }
 
@@ -120,7 +120,7 @@ function submitVrp() {
                     "periodType": "MONTH"
                 }
             ],
-            "callbackUrl": "https://elisacazzola.github.io/",
+            "callbackUrl": "https://elisacazzola.github.io/vrpthanks",
             "returnRefundAccount": true
         }
     
