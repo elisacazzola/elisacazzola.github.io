@@ -105,7 +105,7 @@ function submitVrp() {
             "remittanceInformationPrimary": "Capital One Demo",
             "remittanceInformationSecondary": "secondary remittance info",
             "startDateTime": "2023-02-01T00:00:00.000+00:00",
-            "endDateTime": "2028-04-01T00:00:00.000+00:00",
+            "endDateTime": "2023-06-01T00:00:00.000+00:00",
             "vrpType": "SWEEPING", 
             "localInstrument": "FASTER_PAYMENTS",
             "creditor": {
