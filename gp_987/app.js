@@ -42,7 +42,7 @@ function submitSinglePayment() {
                         },
                         "customerData": {
                             "legalNames": [
-                                "Demo App"  
+                                "TSYSSocialWellbeing"  
                             ]
 
                         } 
