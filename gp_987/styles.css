@@ -1,0 +1,111 @@
+.hide-me {
+    display: none;
+}
+
+.brand-title {
+    color: rgb(255, 0, 64);
+    text-align: center;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+}
+
+.recommended {
+    border-style: solid; 
+    border-width: thin; 
+    border-color: #99f0e9;
+    position: relative;
+}
+
+.recommended-tag {
+    position: absolute;
+    border-style: solid; 
+    border-width: thin; 
+    border-color: #1c2640;
+    background-color:  #1c2640;
+    border-radius: 3px 3px 0 0;
+    top: -22px;
+    right: 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color:#99f0e9;
+    padding: 2px 4px;
+}
+
+.btn {
+    border-style: solid;  
+    background-color: #1c6bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center; 
+    font-size: 16px; 
+}
+
+
+.balance {
+    background-color: #1c2640;
+    color: #99f0e9;
+    padding: 55px 32px;
+}
+
+.form-label {
+    color:#1c2640;
+    font-size: 16px;
+}
+
+.form-check-label {
+    color:#1c2640;
+}
+
+.alert-info {
+    font-size: 11px;
+    background-color: #99f0e9;
+}
+
+.alert-info.confirmation {
+    font-size: 16px;
+
+}
+
+.confirmation-amount {
+    font-size: 24px; 
+}
+
+.disabled {
+    color:#acacac;
+    font-size: 10px;
+}
+
+.alert-success {
+    font-size: 20px;
+
+}
+
+.yourbalance {
+    font-size: 16px;
+}
+
+.qr-code {
+    padding: 55px 32px;  
+
+}
+
+.alert-info.qr {
+    font-size: 16px;
+    background-color: #99f0e9;
+}
+
+.title-black {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 4rem;
+    color:  #000;
+}
+
+.highlight {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 4rem;
+    color:  #1c6bff;
+}
