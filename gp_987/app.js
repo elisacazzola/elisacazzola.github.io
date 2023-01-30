@@ -26,6 +26,7 @@ function submitSinglePayment() {
         "refId": customRefId,
         "to": {
             "id": "m:uRTubPP6giZw3GMvMkdZtiiKqkw:5zKtXEAq",
+            "realmId": "m:4HUsyeQwKzhw6YvFgoPxfUWxQiWX:5zKtXEAq",
         },
         "actingAs":{                             
            "refId": "862bc05d-e5e9-43f6-bb9b-89c14526b636",
