@@ -25,8 +25,11 @@ function submitSinglePayment() {
     "requestPayload": {
         "refId": customRefId,
         "to": {
-            "id": "m:2xzJZY64MXwwvRn1K411pPByYZHZ:5zKtXEAq",
+            "id": "m:uRTubPP6giZw3GMvMkdZtiiKqkw:5zKtXEAq",
         },
+        "actingAs":{                             
+           "refId": "862bc05d-e5e9-43f6-bb9b-89c14526b636",
+                  },
         "transferBody": {
             "currency": "GBP",
             "lifetimeAmount": amount,
@@ -34,8 +37,8 @@ function submitSinglePayment() {
                 "transferDestinations": [
                     {
                         "fasterPayments": {
-                            "sortCode": "208915",
-                            "accountNumber": "50279986"
+                            "sortCode": "400530",
+                            "accountNumber": "64592638"
                         },
                         "customerData": {
                             "legalNames": [
@@ -53,7 +56,7 @@ function submitSinglePayment() {
   }
 
 
-  fetch("https://api.sandbox.token.io/token-requests", {
+  fetch("https://api.token.io/token-requests", {
       method: "POST",
       mode: 'cors',
       headers: {
@@ -72,7 +75,7 @@ function submitSinglePayment() {
   }).then(function(parsedData) {
     console.log("The request ID is ", parsedData.tokenRequest.id);
     console.log("You are paying", amount)
-    $('#qrcode').qrcode("https://web-app.sandbox.token.io/app/request-token/" + parsedData.tokenRequest.id);
+    $('#qrcode').qrcode("https://web-app.token.io/app/request-token/" + parsedData.tokenRequest.id);
     $('#qr-instruction').show();
     $('#form-input').hide();
     const jsConfetti = new JSConfetti()
