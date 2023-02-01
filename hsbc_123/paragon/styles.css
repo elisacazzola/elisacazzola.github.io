@@ -16,7 +16,7 @@
 .recommended {
     border-style: solid; 
     border-width: thin; 
-    border-color: #99f0e9;
+    border-color: #f3f3f3;
     position: relative;
 }
 
@@ -24,21 +24,21 @@
     position: absolute;
     border-style: solid; 
     border-width: thin; 
-    border-color: #1c2640;
-    background-color:  #1c2640;
+    border-color: #89CB31;
+    background-color:  #89CB31;
     border-radius: 3px 3px 0 0;
     top: -22px;
     right: 10px;
     font-size: 10px;
     text-transform: uppercase;
-    color:#99f0e9;
+    color:#ffffff;
     padding: 2px 4px;
 }
 
 .btn {
     border-style: solid;  
-    background-color: #000000;
-    color: #fcfcfc;
+    background-color: #2D2926;
+    color: #ffffff;
     padding: 15px 32px;
     text-align: center; 
     font-size: 16px; 
@@ -46,8 +46,8 @@
 
 
 .balance {
-    background-color: #1c2640;
-    color: #99f0e9;
+    background-color: #2D2926;
+    color: #ffffff;
     padding: 55px 32px;
 }
 
@@ -61,11 +61,12 @@
 
 .alert-info {
     font-size: 11px;
-    background-color: #99f0e9;
+    
 }
 
 .alert-info.confirmation {
     font-size: 16px;
+    
 
 }
 

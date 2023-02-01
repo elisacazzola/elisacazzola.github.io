@@ -37,13 +37,38 @@
 
 .btn {
     border-style: solid;  
-    background-color: #000000;
-    color: #fcfcfc;
+    background-color: #1c2640;
+    color: #99f0e9;
     padding: 15px 32px;
     text-align: center; 
     font-size: 16px; 
 }
 
+.btn.edit {
+    border-style: solid;  
+    background-color: #f7d749;
+    color: #fc6c29;
+    padding: 15px 30px;
+    text-align: center; 
+    font-size: 16px;
+
+}
+
+.btn.delete {
+    border-style: solid;  
+    background-color: #ec0000;
+    color: #ffffff;
+    padding: 15px 30px;
+    text-align: center; 
+    font-size: 16px;
+
+}
+ 
+.vrp {
+    background-color: #dadada;
+    color: #1c2640;
+    padding: 20px 20px;
+}
 
 .balance {
     background-color: #1c2640;
@@ -86,4 +111,20 @@
 .yourbalance {
     font-size: 16px;
 }
+
+.accordion-button {
+    border-style: solid;  
+    background-color: #1c2640;
+    color: #99f0e9;
+    padding: 15px 32px;
+    text-align: center; 
+    font-size: 16px; 
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: #99f0e9;
+    background-color: #1c2640;
+}
+
 
