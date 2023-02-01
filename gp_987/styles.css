@@ -9,7 +9,7 @@
 
 .logo {
     margin: 0 auto;
-    width: 50%;
+    width: 30%;
     display: block;
 }
 
@@ -100,12 +100,12 @@
 
 .title-black {
     font-family: Arial,Helvetica,sans-serif;
-    font-size: 4rem;
+    font-size: 2rem;
     color:  #000;
 }
 
 .highlight {
     font-family: Arial,Helvetica,sans-serif;
-    font-size: 4rem;
+    font-size: 2rem;
     color:  #1c6bff;
 }
