@@ -4,7 +4,8 @@ $( document ).ready(function() {
     jsConfetti = new JSConfetti()
     jsConfetti.addConfetti({
       emojis: [ '🍓', '🍋', '🌸', '🇮🇹'],
-      confettiNumber: 500,
+      confettiNumber: 200,
+      confettiRadius: 1,
     })
 
   });
