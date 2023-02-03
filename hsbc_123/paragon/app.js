@@ -51,8 +51,8 @@ function submitSinglePayment() {
                 "transferDestinations": [
                     {
                         "fasterPayments": {
-                            "sortCode": "208915",
-                            "accountNumber": "50279986"
+                            "sortCode": "040004",
+                            "accountNumber": "79757973"
                         },
                         "customerData": {
                             "legalNames": [
@@ -65,7 +65,7 @@ function submitSinglePayment() {
             }
         },
         "description": "CapitalOneDemoPayment",
-        "redirectUrl": "https://elisacazzola.github.io/thanks"
+        "redirectUrl": "https://elisacazzola.github.io/hsbc_123/paragon/thanks"
     }
   }
 
@@ -120,7 +120,7 @@ function submitVrp() {
                     "periodType": "MONTH"
                 }
             ],
-            "callbackUrl": "https://elisacazzola.github.io/vrpthanks",
+            "callbackUrl": "https://elisacazzola.github.io/hsbc_123/paragon/vrpthanks",
             "returnRefundAccount": true
         }
     
