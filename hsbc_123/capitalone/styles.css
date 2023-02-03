@@ -35,6 +35,15 @@
     padding: 2px 4px;
 }
 
+.btn {
+    border-style: solid;  
+    background-color: #1c2640;
+    color: #99f0e9;
+    padding: 15px 32px;
+    text-align: center; 
+    font-size: 14px; 
+}
+
 .btn.primary {
     border-style: solid;  
     background-color: #28c550;
@@ -44,14 +53,7 @@
     font-size: 16px; 
 }
 
-.btn {
-    border-style: solid;  
-    background-color: #1c2640;
-    color: #99f0e9;
-    padding: 15px 32px;
-    text-align: center; 
-    font-size: 14px; 
-}
+
 
 .btn.edit {
     border-style: solid;  

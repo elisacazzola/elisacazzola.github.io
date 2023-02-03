@@ -44,6 +44,42 @@
     font-size: 16px; 
 }
 
+.btn.primary {
+    border-style: solid;  
+    background-color: #28c550;
+    color: #f0f8f7;
+    padding: 6px 50px;
+    text-align: center; 
+    font-size: 16px; 
+}
+
+
+
+.btn.edit {
+    border-style: solid;  
+    background-color: #f7d749;
+    color: #fc6c29;
+    padding: 6px 15px;
+    text-align: center; 
+    font-size: 16px;
+
+}
+
+.btn.delete {
+    border-style: solid;  
+    background-color: #ec0000;
+    color: #ffffff;
+    padding: 6px 15px;
+    text-align: center; 
+    font-size: 16px;
+
+}
+ 
+.vrp {
+    background-color: #dadada;
+    color: #2D2926;
+    padding: 20px 20px;
+}
 
 .balance {
     background-color: #2D2926;
@@ -52,11 +88,11 @@
 }
 
 .form-label {
-    color:#1c2640;
+    color:#2D2926;
 }
 
 .form-check-label {
-    color:#1c2640;
+    color:#2D2926;
 }
 
 .alert-info {
@@ -86,5 +122,20 @@
 
 .yourbalance {
     font-size: 16px;
+}
+
+.accordion-button {
+    border-style: solid;  
+    background-color: #2D2926;
+    color: #99f0e9;
+    padding: 15px 32px;
+    text-align: center; 
+    font-size: 16px; 
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: #99f0e9;
+    background-color: #2D2926;
 }
 
