@@ -48,9 +48,9 @@
     border-style: solid;  
     background-color: #28c550;
     color: #f0f8f7;
-    padding: 6px 50px;
-    text-align: center; 
-    font-size: 16px; 
+    padding: 6px 100px;
+    text-align: left; 
+    font-size: 12px; 
 }
 
 
@@ -127,7 +127,7 @@
 .accordion-button {
     border-style: solid;  
     background-color: #2D2926;
-    color: #99f0e9;
+    color: #ffffff;
     padding: 15px 32px;
     text-align: center; 
     font-size: 16px; 
@@ -135,7 +135,7 @@
 
 
 .accordion-button:not(.collapsed) {
-    color: #99f0e9;
+    color: #ffffff;
     background-color: #2D2926;
 }
 
