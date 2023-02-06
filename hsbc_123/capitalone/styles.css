@@ -75,6 +75,16 @@
 
 }
  
+.btn.delete.back {
+    border-style: solid;  
+    background-color: #888b8d;
+    color: #050505;
+    padding: 6px 15px;
+    text-align: center; 
+    font-size: 16px;
+
+}
+
 .vrp {
     background-color: #dadada;
     color: #1c2640;
