@@ -51,7 +51,7 @@ function submitSinglePayment() {
             }
         },
         "description": "Demo App",
-        "redirectUrl": "https://www.globalpayments.com"
+        "redirectUrl": "https://elisacazzola.github.io/gp_987/thanks"
     }
   }
 
