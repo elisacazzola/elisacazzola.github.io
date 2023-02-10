@@ -65,7 +65,7 @@ function submitSinglePayment() {
             }
         },
         "description": "CapitalOneDemoPayment",
-        "redirectUrl": "https://elisacazzola.github.io/hsbc_123/capitalone/thanks"
+        "redirectUrl": "https://elisacazzola.github.io/123hs00/capitalone/thanks"
     }
   }
 
@@ -120,7 +120,7 @@ function submitVrp() {
                     "periodType": "MONTH"
                 }
             ],
-            "callbackUrl": "https://elisacazzola.github.io/hsbc_123/capitalone/vrpthanks",
+            "callbackUrl": "https://elisacazzola.github.io/123hs00/capitalone/vrpthanks",
             "returnRefundAccount": true
         }
     
