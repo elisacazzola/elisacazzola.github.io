@@ -104,8 +104,8 @@ function submitVrp() {
             "refId": customRefId,
             "remittanceInformationPrimary": "AjBell Demo",
             "remittanceInformationSecondary": "secondary remittance info",
-            "startDateTime": "2023-03-01T00:00:00.000+00:00",
-            "endDateTime": "2023-06-01T00:00:00.000+00:00",
+            "startDateTime": "2023-06-01T00:00:00.000+00:00",
+            "endDateTime": "2023-09-01T00:00:00.000+00:00",
             "vrpType": "SWEEPING", 
             "localInstrument": "FASTER_PAYMENTS",
             "creditor": {
