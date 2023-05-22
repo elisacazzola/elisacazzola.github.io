@@ -56,7 +56,7 @@ function submitSinglePayment() {
                         },
                         "customerData": {
                             "legalNames": [
-                                "Jaja Demo App"  
+                                "Aj Bell Demo App"  
                             ]
 
                         } 
@@ -64,8 +64,8 @@ function submitSinglePayment() {
                 ]
             }
         },
-        "description": "JajaDemoPayment",
-        "redirectUrl": "https://elisacazzola.github.io/123hs00/jaja/thanks"
+        "description": "AjBellDemoPayment",
+        "redirectUrl": "https://elisacazzola.github.io/123hs00/ajbell/thanks"
     }
   }
 
@@ -102,7 +102,7 @@ function submitVrp() {
           "initiation": {
             "currency": "GBP",
             "refId": customRefId,
-            "remittanceInformationPrimary": "jaja Demo",
+            "remittanceInformationPrimary": "AjBell Demo",
             "remittanceInformationSecondary": "secondary remittance info",
             "startDateTime": "2023-03-01T00:00:00.000+00:00",
             "endDateTime": "2023-06-01T00:00:00.000+00:00",
@@ -120,7 +120,7 @@ function submitVrp() {
                     "periodType": "MONTH"
                 }
             ],
-            "callbackUrl": "https://elisacazzola.github.io/123hs00/jaja/vrpthanks",
+            "callbackUrl": "https://elisacazzola.github.io/123hs00/ajbell/vrpthanks",
             "returnRefundAccount": true
         }
     
