@@ -27,14 +27,19 @@
       </form>  
     </div> 
     <div class="container-fluid px-3">
-      <p></p>
-      <div class="input-group mb-3">
-        YOUR BASKET
-      </div>
+ 
       <form class="mt-5" id="form-input">
-          <label class="form-label">Total amount</label>
+        <div class="balance mt-5 pl-3 rounded">
+          <div class="yourbalance">
+            YOUR BALANCE
+          </div>
+          <h1>£3,000</h1>
+        </div>
+        <div class="mt-5 mb-5">
+          <label class="form-label">How much do you want to pay?</label>
          <div class="input-group mb-3">
-            £ 199,00
+            <span class="input-group-text">£</span>
+            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="amount">
           </div>
           <div class="recommended mt-5 pl-3 rounded">
             <span class="recommended-tag">recommended</span>
@@ -45,6 +50,14 @@
               </label>
               <div class="form-text"> Fast & secure via your mobile banking app.
               </div>
+            </div>
+          </div>
+          <div class="form-check mt-5 mb-5 px-5 pr-2">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="paybyvrp" value="option1">
+            <label class="form-check-label pl-5" for="paybybank">
+              Set up monthly payment
+            </label>
+            <div class="form-text"> Set up variable monthly repayments.
             </div>
           </div>
           <div class="form-check mt-5 mb-5 px-5 disabled-popover" data-toggle="popover" title="No card payments today" data-content="And here's some amazing content. It's very engaging. Right?">
@@ -93,6 +106,7 @@
           <div class="mt-5">
             <button type="submit" class="btn" id="submit-btn">Continue</button>
           </div>  
+        </div>
       </form>
       <div class="alert alert-warning hide-me" id="loading">
         <div class="text-center">
