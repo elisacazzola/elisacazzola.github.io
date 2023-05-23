@@ -108,6 +108,13 @@ function submitVrp() {
             "endDateTime": "2023-09-01T00:00:00.000+00:00",
             "vrpType": "SWEEPING", 
             "localInstrument": "FASTER_PAYMENTS",
+            "merchantCategoryCode": "1520",
+            "standardSpecific": {
+            "obie": {
+            "paymentContextCode": "ECOMMERCE_GOODS",
+            "merchantCustomerIdentification": "string"
+            }
+            },
             "creditor": {
               "name": "Elisa",
               "sortCode": "040004",
