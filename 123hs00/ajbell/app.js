@@ -105,18 +105,11 @@ function submitVrp() {
             "remittanceInformationPrimary": "AjBell Demo",
             "remittanceInformationSecondary": "secondary remittance info",
             "startDateTime": "2023-06-01T00:00:00.000+00:00",
-            "endDateTime": "2023-09-01T00:00:00.000+00:00",
+            "endDateTime": "2029-09-01T00:00:00.000+00:00",
             "vrpType": "SWEEPING", 
             "localInstrument": "FASTER_PAYMENTS",
-            "merchantCategoryCode": "1520",
-            "standardSpecific": {
-            "obie": {
-            "paymentContextCode": "ECOMMERCE_GOODS",
-            "merchantCustomerIdentification": "string"
-            }
-            },
             "creditor": {
-              "name": "Elisa",
+              "name": "Elisa Cazzola",
               "sortCode": "040004",
               "accountNumber": "79757973"
             },
@@ -127,6 +120,14 @@ function submitVrp() {
                     "periodType": "MONTH"
                 }
             ],
+            "bankId": "ob-barclays",
+            "merchantCategoryCode": "1520",
+            "standardSpecific": {
+            "obie": {
+                "paymentContextCode": "ECOMMERCE_GOODS",
+                "merchantCustomerIdentification": "string"
+              }
+            },
             "callbackUrl": "https://elisacazzola.github.io/123hs00/ajbell/vrpthanks",
             "returnRefundAccount": true
         }
