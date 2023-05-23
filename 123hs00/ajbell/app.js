@@ -116,7 +116,7 @@ function submitVrp() {
             "maximumIndividualAmount": "1.00",
             "periodicLimits": [
                 {
-                    "maximumAmount": "1.00",
+                    "maximumAmount": "10.00",
                     "periodType": "MONTH"
                 }
             ],
