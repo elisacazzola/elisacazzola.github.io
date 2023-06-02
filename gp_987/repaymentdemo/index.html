@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Demo App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+  
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datepicker/1.0.10/datepicker.min.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid px-3">
+      <form class="mt-5" id="form-start">
+        <div class="mt-5 mb-5">
+          <label class="form-label">API KEY</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" id="key">
+          </div>
+        </div>
+          <div class="mt-5">
+            <button type="submit" class="btn" id="enter-btn">Start</button>
+          </div>   
+      </form>  
+    </div> 
+    <div class="container-fluid px-3">
+
+      <div class="px-1 pt-1 pb-1">
+        <img src="https://searchvectorlogo.com/wp-content/uploads/2019/11/aj-bell-logo-vector.png" class="m-auto logo">
+      </div>  
+ 
+      <form class="mt-5" id="form-input">
+        <div class="balance mt-5 pl-3 rounded">
+          <div class="yourbalance">
+            YOUR INVESTEMENT ACCOUNT
+          </div>
+          <h1>£3,897</h1>
+        </div>
+        <div class="mt-5 mb-5">
+          <label class="form-label">How much do you want to add?</label>
+         <div class="input-group mb-3">
+            <span class="input-group-text">£</span>
+            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="amount">
+          </div>
+          <div class="recommended mt-5 pl-3 rounded">
+            <span class="recommended-tag">recommended</span>
+            <div class="form-check mt-2 mb-2 px-5 pr-2">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="paybybank" value="option1" checked>
+              <label class="form-check-label pl-5" for="paybybank">
+                Pay by Bank
+              </label>
+              <div class="form-text"> Fast & secure via your mobile banking app.
+              </div>
+            </div>
+          </div>
+          <div class="form-check mt-5 mb-5 px-5 pr-2">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="paybyvrp" value="option1">
+            <label class="form-check-label pl-5" for="paybybank">
+              Set up monthly payment
+            </label>
+            <div class="form-text"> Set up variable monthly repayments.
+            </div>
+          </div>
+          <div class="form-check mt-5 mb-5 px-5 disabled-popover" data-toggle="popover" title="No card payments today" data-content="And here's some amazing content. It's very engaging. Right?">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" disabled=true>
+            <label class="form-check-label" for="exampleRadios2">
+              Pay by Card
+            </label> <span class="disabled"> 👎 unavailable today</span>
+          </div>
+          <fieldset class="mt-5 hide-me" id="vrpFields">
+            <div class="mt-5 mb-5">
+              <label class="form-label">When do you want to start paying?</label>
+              <div class="input-group date">
+                <input id="startDate" type="text" class="form-control datepicker">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                </div>
+            </div>
+            <div class="mt-5 mb-5">
+              <label class="form-label">When will be the last payment?</label>
+              <div class="input-group date">
+                <input id="endDate" type="text" class="form-control datepicker">
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                </div>
+            </div>
+            <div class="mt-5 mb-5">
+              <label class="form-label">Enter maximum amount per month</label>
+                <div class="input-group mb-3">
+                  <span class="input-group-text">£</span>
+                  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="minamount">
+                </div>
+            </div>
+            <div class="mt-5 mb-5">
+              <label class="form-label">Enter maximum amount per payment</label>
+              <div class="input-group mb-3">
+                <span class="input-group-text">£</span>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="maxamount">
+              </div>
+          </div>
+            </div>
+            </div> 
+          </fieldset>  
+          <div class="alert alert-info" role="alert">
+            ℹ️ In the next screen you will be asked to choose your <b>bank</b>
+          </div>
+          <div class="mt-5">
+            <button type="submit" class="btn" id="submit-btn">Continue</button>
+          </div>  
+        </div>
+      </form>
+      <div class="alert alert-warning hide-me" id="loading">
+        <div class="text-center">
+          <div class="spinner-grow spinner-grow-sm" role="status"></div> <div class="spinner-grow spinner-grow-sm" role="status"></div> <div class="spinner-grow spinner-grow-sm" role="status"></div>
+        </div>
+        <p>We are redirecting you...</p>
+      </div> 
+      <div class="alert alert-danger hide-me" id="error">
+        <p>⛔️ There has been an error</p>
+      </div> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    </body>
+</html>
