@@ -16,7 +16,7 @@
 .recommended {
     border-style: solid; 
     border-width: thin; 
-    border-color: #d50032;
+    border-color: #7fbcaa;
     position: relative;
 }
 
@@ -24,8 +24,8 @@
     position: absolute;
     border-style: solid; 
     border-width: thin; 
-    border-color: #d50032;
-    background-color:  #d50032;
+    border-color: #7fbcaa;
+    background-color:  #7fbcaa;
     border-radius: 3px 3px 0 0;
     top: -22px;
     right: 10px;
@@ -37,7 +37,7 @@
 
 .btn {
     border-style: solid;  
-    background-color: #d50032;
+    background-color: #7fbcaa;
     color: #ffff;
     padding: 15px 32px;
     text-align: center; 
