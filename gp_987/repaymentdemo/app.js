@@ -56,7 +56,7 @@ function submitSinglePayment() {
                         },
                         "customerData": {
                             "legalNames": [
-                                "Aj Bell Demo App"  
+                                "Demo App"  
                             ]
 
                         } 
@@ -64,8 +64,8 @@ function submitSinglePayment() {
                 ]
             }
         },
-        "description": "AjBellDemoPayment",
-        "redirectUrl": "https://elisacazzola.github.io/123hs00/ajbell/thanks"
+        "description": "Global Payment Demo",
+        "redirectUrl": "https://elisacazzola.github.io/gp_987/repaymentdemo/thanks"
     }
   }
 
@@ -127,7 +127,7 @@ function submitVrp() {
                 "merchantCustomerIdentification": "string"
               }
             },
-            "callbackUrl": "https://elisacazzola.github.io/123hs00/ajbell/vrpthanks",
+            "callbackUrl": "https://elisacazzola.github.io/gp_987/repaymentdemo/vrpthanks",
             "returnRefundAccount": true
         }
     
