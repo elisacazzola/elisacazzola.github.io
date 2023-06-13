@@ -42,8 +42,11 @@ function submitSinglePayment() {
     "requestPayload": {
         "refId": customRefId,
         "to": {
-            "id": "m:2GKYMZ1C1SXuCkpmxcfMiHx4qn79:5zKtXEAq",
+            "id": "m:uRTubPP6giZw3GMvMkdZtiiKqkw:5zKtXEAq",
         },
+        "actingAs":{                             
+          "refId": "634e1d35-15a4-4e07-8105-047f18a63257"
+                 },
         "transferBody": {
             "currency": "GBP",
             "lifetimeAmount": amount,
