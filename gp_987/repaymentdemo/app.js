@@ -44,6 +44,7 @@ function submitSinglePayment() {
         "to": {
             "id": "m:uRTubPP6giZw3GMvMkdZtiiKqkw:5zKtXEAq",
         },
+        "countries":["GB"],
         "actingAs":{                             
           "refId": "634e1d35-15a4-4e07-8105-047f18a63257"
                  },
