@@ -56,7 +56,7 @@ function submitSinglePayment() {
                         },
                         "customerData": {
                             "legalNames": [
-                                "Capital One Demo App"  
+                                "Demo"  
                             ]
 
                         } 
@@ -65,7 +65,7 @@ function submitSinglePayment() {
             }
         },
         "description": "CapitalOneDemoPayment",
-        "redirectUrl": "https://elisacazzola.github.io/123hs00/capitalone/thanks"
+        "redirectUrl": "https://elisacazzola.github.io/123hs00/investec/thanks"
     }
   }
 
@@ -102,7 +102,7 @@ function submitVrp() {
           "initiation": {
             "currency": "GBP",
             "refId": customRefId,
-            "remittanceInformationPrimary": "Capital One Demo",
+            "remittanceInformationPrimary": "Demo",
             "remittanceInformationSecondary": "secondary remittance info",
             "startDateTime": "2023-03-01T00:00:00.000+00:00",
             "endDateTime": "2023-06-01T00:00:00.000+00:00",
@@ -120,7 +120,7 @@ function submitVrp() {
                     "periodType": "MONTH"
                 }
             ],
-            "callbackUrl": "https://elisacazzola.github.io/123hs00/capitalone/vrpthanks",
+            "callbackUrl": "https://elisacazzola.github.io/123hs00/investec/vrpthanks",
             "returnRefundAccount": true
         }
     
