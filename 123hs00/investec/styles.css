@@ -77,7 +77,7 @@
  
 .btn.delete.back {
     border-style: solid;  
-    background-color: #888b8d;
+    background-color: #e7eaeb;
     color: #050505;
     padding: 6px 15px;
     text-align: center; 
@@ -86,7 +86,7 @@
 }
 
 .vrp {
-    background-color: #dadada;
+    background-color: #e6e6e6;
     color: #303849;
     padding: 20px 20px;
 }
@@ -107,7 +107,7 @@
 
 .alert-info {
     font-size: 11px;
-    background-color: #303849df;
+    background-color: #303849;
     color:  #ffffff;
 }
 
@@ -137,7 +137,7 @@
 .accordion-button {
     border-style: solid;  
     background-color: #303849;
-    color: #99f0e9;
+    color: #ffffff;
     padding: 15px 32px;
     text-align: center; 
     font-size: 16px; 
