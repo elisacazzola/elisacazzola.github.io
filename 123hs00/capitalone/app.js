@@ -64,7 +64,7 @@ function submitSinglePayment() {
                 ]
             }
         },
-        "description": "CapitalOneDemoPayment",
+        "description": "Demo",
         "redirectUrl": "https://elisacazzola.github.io/123hs00/capitalone/thanks"
     }
   }
