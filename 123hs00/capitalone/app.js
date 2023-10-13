@@ -44,10 +44,7 @@ function submitSinglePayment() {
         "to": {
             "id": "m:2GKYMZ1C1SXuCkpmxcfMiHx4qn79:5zKtXEAq",
         },
-        "actingAs":{  
-              "refId": "b8bce660-3bc9-4a18-b1d7-4b7fe58b097b",
-                    "displayName": "Asos"
-                  },
+
         "transferBody": {
             "currency": "GBP",
             "lifetimeAmount": amount,
