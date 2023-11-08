@@ -65,7 +65,7 @@ function submitSinglePayment() {
                 ]
             }
         },
-        "description": "Repayment of card ending in 4242",
+        "description": "Repayment of card 4242",
         "redirectUrl": "https://elisacazzola.github.io/123hs00/capitalone/thanks"
     }
   }
