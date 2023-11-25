@@ -3,7 +3,7 @@
 }
 
 .brand-title {
-    color:  #1b739f;
+    color:  #D71440;
     text-align: center;
 }
 
@@ -15,7 +15,7 @@
 
 .how {
   font-size: 17px;
-  color: #1b739f;  
+  color: #D71440;  
   font-family: 'Courier New', Courier, monospace;
   padding: 10px 10px 10px 10px;
   text-align: left;
@@ -24,8 +24,8 @@
 .recommended {
     border-style: solid; 
     border-width: thin; 
-    border-color: #1b739f;
-    border-color: #1b739f;
+    border-color: #D71440;
+    border-color: #D71440;
     position: relative;
 }
 
@@ -54,7 +54,7 @@
 
 .btn {
     border-style: solid;  
-    background-color: #05bcd4;
+    background-color: #D71440;
     color: #ffff;
     padding: 15px 32px;
     text-align: center; 
@@ -64,8 +64,8 @@
 
 .btn-secondary {
         border-style: solid; 
-        border-color:#05bcd4; ; 
-        background-color: #05bcd4;
+        border-color:#D71440; ; 
+        background-color: #D71440;
         color: #ffffff;
         padding: 6px 25px;
         border-radius: 30px;
